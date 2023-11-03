@@ -1,0 +1,27 @@
+.navbar{
+    
+    justify-content:space-between;
+    display:flex ;
+    font-size: x-large;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding:10px;
+}
+.nav{
+    border-bottom: 3px solid black;
+    padding: 10px;
+}
+.cart{
+    margin-right: 50px;
+}
+.logo{
+    margin-left: 20px;
+}
+a:hover{
+    background-color: rgb(235, 103, 55);
+    color: rgb(255, 255, 255);
+}
