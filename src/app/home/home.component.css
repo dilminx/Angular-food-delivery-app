@@ -1,12 +1,21 @@
-div{
+.outer{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    /* margin: 20px ; */
 
     
 
 
+    }
+    .mainitem{
+        flex-direction: column;
+        background-color: antiquewhite;
+        margin:35px;
+        padding: 8px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 10px  rgba(211, 184, 86, 0.5);
     }
 
     .img2{       
@@ -18,8 +27,42 @@ div{
         border-radius: 15px;
         overflow: hidden;
         background-color: rgb(248, 227, 217);
+        /* flex-direction: column; */
         
     }
-    .img2:over{
+    .img2:hover{
         opacity:0.8;
+    }
+    .pricefood{
+        font-size:30px;
+        font-weight: bold;
+        color: rgb(181, 10, 10);
+
+    }
+    .star{
+        display: flex;
+        justify-content: space-between;
+    }
+    .name{
+        font-weight:bold;
+        font-size: x-large;
+        font-family:monospace;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        margin:5px;
+    }
+    .btn{
+        background-color: rgb(143, 236, 140);
+        width: auto;
+        padding: 10px;
+        border-radius: 8px;
+        font-weight: bold;
+        font-family:monospace;
+    }
+    .btn:hover{
+      opacity:0.8;
+      color:white;
+      background-color: red;
     }
