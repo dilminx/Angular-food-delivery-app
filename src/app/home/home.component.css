@@ -1,0 +1,25 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+
+
+    }
+
+    .img2{       
+        width:300px;
+        height: 300px;
+        display:flex;
+        margin:10px;
+        border: 2px solid red;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: rgb(248, 227, 217);
+        
+    }
+    .img2:over{
+        opacity:0.8;
+    }
