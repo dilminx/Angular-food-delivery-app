@@ -1,0 +1,12 @@
+.footer{
+    justify-content: space-between;
+    display: flex;
+    padding: 30px;
+    background-color: rgb(206, 180, 166);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: larger;
+    margin: 0px;
+    
+
+}
