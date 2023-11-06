@@ -6,6 +6,12 @@ import { Food } from "../../shared/models/Food";
 export class FoodService {
 
   constructor() { }
+
+getFoodById(id: number):Food{
+
+  return this.getAll().find(food => food.id == id)!;
+}
+
   getAll():Food[]{
     return[
       {
@@ -153,11 +159,11 @@ export class FoodService {
       },
       {
         id: 14,
-        name: 'Srilankan Traditionl',
+        name: 'Srilankan Traditionl Rice',
         cookTime: '10-20',
         price: 'Rs.2000.00',
         favorite: false,
-        origins: ['celon'],
+        origins: ['srilankan'],
         stars: 4.5,
         imageUrl: '/assets/images/foods/p14.png',
         tags: ['FastFood', 'Pizza', 'Lunch'],

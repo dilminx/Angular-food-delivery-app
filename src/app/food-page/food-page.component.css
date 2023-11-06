@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(254, 235, 247);
+    
+    
+}
+
+
+.imgs{
+    width: 40%;
+    height:40%;
+    background-color: rgb(251, 66, 106);
+    padding: 50px;
+    /* margin: 0%; */
+}
+.details{
+margin-left: 10%;
+}
+
+.namefood{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(115, 1, 1);
+    padding-left:20px;
+    padding-right:30px;
+    border-radius: 30px;
+    color: azure;
+}
+h3{
+    margin-left:60px;
+}
+button{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(29, 190, 136);
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    color: azure;
+    margin-left: 40%;
+}
+button:hover{
+    box-shadow: 5px 5px  rgb(155, 4, 4);
+    
+}

@@ -1,8 +1,10 @@
+<div class="container">
+    <app-search></app-search>
 <div class="outer">
     <div class="img1" *ngFor="let food of foods">
          
         <div class="mainitem">
-            <a  class="img2" href="">
+            <a  routerLink="/food/{{food.id}}" class="img2">
                 <img src="{{food.imageUrl}}" alt="">
     
                 
@@ -36,4 +38,6 @@
         </div>
 
     </div>
+</div>
+
 </div>

@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { SearchComponent } from './search/search.component';
+import { StarRatingModule } from 'angular-star-rating';
+import { FormsModule } from '@angular/forms';
+import { FoodPageComponent } from './food-page/food-page.component';
 
 @NgModule({
   declarations: [
@@ -13,11 +17,14 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    SearchComponent,
+    FoodPageComponent,
    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
