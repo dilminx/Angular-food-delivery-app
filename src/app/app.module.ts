@@ -10,6 +10,7 @@ import { SearchComponent } from './search/search.component';
 import { StarRatingModule } from 'angular-star-rating';
 import { FormsModule } from '@angular/forms';
 import { FoodPageComponent } from './food-page/food-page.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FoodPageComponent } from './food-page/food-page.component';
     HomeComponent,
     SearchComponent,
     FoodPageComponent,
+    CartPageComponent,
    
   ],
   imports: [
